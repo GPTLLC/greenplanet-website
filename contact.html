@@ -2,36 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact - Green Planet Traders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Green Planet Traders</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #e6f2ec;
+      color: #1a1a1a;
+    }
+    header {
+      background: linear-gradient(90deg, #388e3c, #2e7d32);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.8rem;
+      color: #2e7d32;
+    }
+    p {
+      font-size: 1.05rem;
+    }
+    .contact-item {
+      margin: 1.5rem 0;
+    }
+    a.call-link {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: #2e7d32;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    a.call-link:hover {
+      background: #256429;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <div class="header-container">
-      <img src="logo.jpg" alt="Green Planet Traders Logo" class="logo" />
-      <div>
-        <h1>Green Planet Traders</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="services.html">Services</a>
-          <a href="contact.html">Contact</a>
-        </nav>
-      </div>
-    </div>
-  </header>
 
-  <main>
-    <section>
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:greenplanettradersllc@gmail.com">greenplanettradersllc@gmail.com</a></p>
-      <p>Location: Virtual Office – Global Presence</p>
-    </section>
-  </main>
+<header>
+  <h1>Contact Green Planet Traders</h1>
+  <p>We’d love to hear from you.</p>
+</header>
 
-  <footer>
-    <p>&copy; 2025 Green Planet Traders. All rights reserved.</p>
-  </footer>
+<div class="container">
+  <div class="contact-item">
+    <h2>Phone</h2>
+    <p><strong>Call or Text:</strong> <a href="tel:+18136650411">(813) 665-0411</a></p>
+    <a href="tel:+18136650411" class="call-link">📞 Call Us Now</a>
+  </div>
+
+  <div class="contact-item">
+    <h2>Email</h2>
+    <p><strong>General Inquiries:</strong> <a href="mailto:greenplanetllc@gmail.com">greenplanetllc@gmail.com</a></p>
+  </div>
+
+  <div class="contact-item">
+    <h2>Business Hours</h2>
+    <p>Monday - Friday: 9am – 6pm<br>Saturday: 10am – 2pm<br>Sunday: Closed</p>
+  </div>
+</div>
+
 </body>
 </html>
